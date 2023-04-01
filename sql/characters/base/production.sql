@@ -56,7 +56,7 @@ CREATE TABLE IF NOT EXISTS `template_npc_talents` (
   `glyph` smallint(5) unsigned NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Templates';
 
-/*!40000 ALTER TABLE `template_npc_alliance` DISABLE KEYS */;
+/*/*!40000 ALTER TABLE `template_npc_alliance` DISABLE KEYS */;*/
 /*INSERT INTO `template_npc_alliance` (`playerClass`, `playerSpec`, `pos`, `itemEntry`, `enchant`, `socket1`, `socket2`, `socket3`, `bonusEnchant`, `prismaticEnchant`) VALUES
     ('Rogue', 'Assassination', 0, 41672, 3795, 3628, 3521, 0, 3314, 0),
     ('Rogue', 'Assassination', 1, 42042, 0, 0, 0, 0, 0, 0),
@@ -1069,7 +1069,7 @@ INSERT INTO `template_npc_horde` (`playerClass`, `playerSpec`, `pos`, `itemEntry
 /*!40000 ALTER TABLE `template_npc_horde` ENABLE KEYS */;
 
 
-/*!40000 ALTER TABLE `template_npc_human` DISABLE KEYS */;
+/*/*!40000 ALTER TABLE `template_npc_human` DISABLE KEYS */;*/
 /*INSERT INTO `template_npc_human` (`playerClass`, `playerSpec`, `pos`, `itemEntry`, `enchant`, `socket1`, `socket2`, `socket3`, `bonusEnchant`, `prismaticEnchant`) VALUES
     ('Rogue', 'Assassination', 0, 41672, 3795, 3628, 3521, 0, 3314, 0),
     ('Rogue', 'Assassination', 1, 42042, 0, 0, 0, 0, 0, 0),
