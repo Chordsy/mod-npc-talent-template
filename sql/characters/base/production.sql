@@ -1,5 +1,5 @@
 -- DB: characters
-
+/*
 CREATE TABLE IF NOT EXISTS `template_npc_alliance` (
   `playerClass` varchar(50) NOT NULL,
   `playerSpec` varchar(50) NOT NULL,
@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS `template_npc_alliance` (
   `socket3` int(10) unsigned NOT NULL DEFAULT '0',
   `bonusEnchant` int(10) unsigned NOT NULL DEFAULT '0',
   `prismaticEnchant` int(10) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Templates';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Templates';*/
 
 
 CREATE TABLE IF NOT EXISTS `template_npc_horde` (
@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS `template_npc_horde` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Templates';
 
 
-CREATE TABLE IF NOT EXISTS `template_npc_human` (
+/*CREATE TABLE IF NOT EXISTS `template_npc_human` (
   `playerClass` varchar(50) NOT NULL,
   `playerSpec` varchar(50) NOT NULL,
   `pos` int(10) unsigned NOT NULL DEFAULT '0',
@@ -39,25 +39,25 @@ CREATE TABLE IF NOT EXISTS `template_npc_human` (
   `socket3` int(10) unsigned NOT NULL DEFAULT '0',
   `bonusEnchant` int(10) unsigned NOT NULL DEFAULT '0',
   `prismaticEnchant` int(10) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Templates';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Templates';*/
 
 
-CREATE TABLE IF NOT EXISTS `template_npc_talents` (
+/*CREATE TABLE IF NOT EXISTS `template_npc_talents` (
   `playerClass` varchar(50) NOT NULL,
   `playerSpec` varchar(50) NOT NULL,
   `talentId` int(10) unsigned NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Templates';
+*/
 
-
-CREATE TABLE IF NOT EXISTS `template_npc_glyphs` (
+/* CREATE TABLE IF NOT EXISTS `template_npc_glyphs` (
   `playerClass` varchar(50) NOT NULL,
   `playerSpec` varchar(50) NOT NULL,
   `slot` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `glyph` smallint(5) unsigned NOT NULL DEFAULT '0'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Templates';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='Templates';*/
 
 /*!40000 ALTER TABLE `template_npc_alliance` DISABLE KEYS */;
-INSERT INTO `template_npc_alliance` (`playerClass`, `playerSpec`, `pos`, `itemEntry`, `enchant`, `socket1`, `socket2`, `socket3`, `bonusEnchant`, `prismaticEnchant`) VALUES
+/*INSERT INTO `template_npc_alliance` (`playerClass`, `playerSpec`, `pos`, `itemEntry`, `enchant`, `socket1`, `socket2`, `socket3`, `bonusEnchant`, `prismaticEnchant`) VALUES
     ('Rogue', 'Assassination', 0, 41672, 3795, 3628, 3521, 0, 3314, 0),
     ('Rogue', 'Assassination', 1, 42042, 0, 0, 0, 0, 0, 0),
     ('Rogue', 'Assassination', 2, 41683, 3793, 3521, 0, 0, 0, 0),
@@ -560,7 +560,7 @@ INSERT INTO `template_npc_alliance` (`playerClass`, `playerSpec`, `pos`, `itemEn
     ('DeathKnight', 'Frost', 15, 42209, 3370, 3518, 0, 0, 0, 0),
     ('DeathKnight', 'Frost', 16, 42209, 3594, 3535, 0, 0, 2936, 0),
     ('DeathKnight', 'Frost', 17, 42621, 0, 0, 0, 0, 0, 0);
-/*!40000 ALTER TABLE `template_npc_alliance` ENABLE KEYS */;
+/*!40000 ALTER TABLE `template_npc_alliance` ENABLE KEYS */;*/
 
 
 /*!40000 ALTER TABLE `template_npc_horde` DISABLE KEYS */;
@@ -569,7 +569,7 @@ INSERT INTO `template_npc_horde` (`playerClass`, `playerSpec`, `pos`, `itemEntry
     ('Rogue', 'Assassination', 1, 45517, 0, 0, 0, 0, 0, 0),
     ('Rogue', 'Assassination', 2, 45245, 0, 0, 0, 0, 0, 0),
     ('Rogue', 'Assassination', 4, 45473, 0, 0, 0, 0, 0, 0),
-    ('Rogue', 'Assassination', 5, 41833, 0, 0, 0, 0, 0, 0),
+    ('Rogue', 'Assassination', 5, 45555, 0, 0, 0, 0, 0, 0),
     ('Rogue', 'Assassination', 6, 41655, 0, 0, 0, 0, 0, 0),
     ('Rogue', 'Assassination', 7, 45564, 0, 0, 0, 0, 0, 0),
     ('Rogue', 'Assassination', 8, 45611, 0, 0, 0, 0, 0, 0),
@@ -581,7 +581,7 @@ INSERT INTO `template_npc_horde` (`playerClass`, `playerSpec`, `pos`, `itemEntry
     ('Rogue', 'Assassination', 14, 45461, 0, 0, 0, 0, 0, 0),
     ('Rogue', 'Assassination', 15, 45484, 0, 0, 0, 0, 0, 0),
     ('Rogue', 'Assassination', 16, 45484, 0, 0, 0, 0, 0, 0),
-    ('Rogue', 'Assassination', 17, 42451, 0, 0, 0, 0, 0, 0),
+    ('Rogue', 'Assassination', 17, 45570, 0, 0, 0, 0, 0, 0),
     ('Rogue', 'Subtlety', 0, 41672, 0, 0, 0, 0, 0, 0),
     ('Rogue', 'Subtlety', 1, 42042, 0, 0, 0, 0, 0, 0),
     ('Rogue', 'Subtlety', 2, 41683, 0, 0, 0, 0, 0, 0),
@@ -1070,7 +1070,7 @@ INSERT INTO `template_npc_horde` (`playerClass`, `playerSpec`, `pos`, `itemEntry
 
 
 /*!40000 ALTER TABLE `template_npc_human` DISABLE KEYS */;
-INSERT INTO `template_npc_human` (`playerClass`, `playerSpec`, `pos`, `itemEntry`, `enchant`, `socket1`, `socket2`, `socket3`, `bonusEnchant`, `prismaticEnchant`) VALUES
+/*INSERT INTO `template_npc_human` (`playerClass`, `playerSpec`, `pos`, `itemEntry`, `enchant`, `socket1`, `socket2`, `socket3`, `bonusEnchant`, `prismaticEnchant`) VALUES
     ('Rogue', 'Assassination', 0, 41672, 3795, 3628, 3521, 0, 3314, 0),
     ('Rogue', 'Assassination', 1, 42042, 0, 0, 0, 0, 0, 0),
     ('Rogue', 'Assassination', 2, 41683, 3793, 3521, 0, 0, 0, 0),
@@ -1425,11 +1425,11 @@ INSERT INTO `template_npc_human` (`playerClass`, `playerSpec`, `pos`, `itemEntry
     ('Priest', 'Shadow', 15, 42347, 3834, 3590, 0, 0, 3752, 0),
     ('Priest', 'Shadow', 16, 42526, 0, 0, 0, 0, 0, 0),
     ('Priest', 'Shadow', 17, 42520, 0, 0, 0, 0, 0, 0);
-/*!40000 ALTER TABLE `template_npc_human` ENABLE KEYS */;
+/*!40000 ALTER TABLE `template_npc_human` ENABLE KEYS */;*/
 
 
 /*!40000 ALTER TABLE `template_npc_talents` DISABLE KEYS */;
-INSERT INTO `template_npc_talents` (`playerClass`, `playerSpec`, `talentId`) VALUES
+/*INSERT INTO `template_npc_talents` (`playerClass`, `playerSpec`, `talentId`) VALUES
     ('Rogue', 'Assassination', 1329),
     ('Rogue', 'Assassination', 13848),
     ('Rogue', 'Assassination', 13866),
@@ -2269,11 +2269,11 @@ INSERT INTO `template_npc_talents` (`playerClass`, `playerSpec`, `talentId`) VAL
     ('Priest', 'Shadow', 51167),
     ('Priest', 'Shadow', 63627),
     ('Priest', 'Shadow', 64044);
-/*!40000 ALTER TABLE `template_npc_talents` ENABLE KEYS */;
+/*!40000 ALTER TABLE `template_npc_talents` ENABLE KEYS */;*/
 
 
 /*!40000 ALTER TABLE `template_npc_glyphs` DISABLE KEYS */;
-INSERT INTO `template_npc_glyphs` (`playerClass`, `playerSpec`, `slot`, `glyph`) VALUES
+/*INSERT INTO `template_npc_glyphs` (`playerClass`, `playerSpec`, `slot`, `glyph`) VALUES
     ('Rogue', 'Assassination', 0, 733),
     ('Rogue', 'Assassination', 1, 464),
     ('Rogue', 'Assassination', 2, 467),
@@ -2454,4 +2454,4 @@ INSERT INTO `template_npc_glyphs` (`playerClass`, `playerSpec`, `slot`, `glyph`)
     ('Priest', 'Shadow', 3, 257),
     ('Priest', 'Shadow', 4, 459),
     ('Priest', 'Shadow', 5, 708);
-/*!40000 ALTER TABLE `template_npc_glyphs` ENABLE KEYS */;
+/*!40000 ALTER TABLE `template_npc_glyphs` ENABLE KEYS */;*/
