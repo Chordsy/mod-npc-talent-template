@@ -879,7 +879,7 @@ INSERT INTO `template_npc_horde` (`playerClass`, `playerSpec`, `pos`, `itemEntry
     ('Paladin', 'Holy', 10, 46323, 0, 0, 0, 0, 0, 0),
     ('Paladin', 'Holy', 11, 45946, 0, 0, 0, 0, 0, 0),
     ('Paladin', 'Holy', 12, 44255, 0, 0, 0, 0, 0, 0),
-    ('Paladin', 'Holy', 13, 51378, 0, 0, 0, 0, 0, 0),
+    ('Paladin', 'Holy', 13, 46051, 0, 0, 0, 0, 0, 0),
     ('Paladin', 'Holy', 14, 44005, 0, 0, 0, 0, 0, 0),
     ('Paladin', 'Holy', 15, 46017, 0, 0, 0, 0, 0, 0),
     ('Paladin', 'Holy', 16, 45470, 0, 0, 0, 0, 0, 0),
