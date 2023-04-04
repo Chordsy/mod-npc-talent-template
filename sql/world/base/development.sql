@@ -3,7 +3,7 @@ SET
 @NpcEntry 		:= 55009,
 @NpcName		:= "Willyvodka",
 @NpcSubname		:= "Pick A Spec",
-@NpcDisplayID		:= 24877;
+@NpcDisplayID		:= 30528;
 
 DELETE FROM `creature_template` WHERE `entry` IN (@NpcEntry);
 INSERT INTO `creature_template` (`entry`, `modelid1`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `faction`, `npcflag`, `speed_walk`, `speed_run`, `scale`, `rank`, `unit_class`, `unit_flags`, `type`, `type_flags`, `RegenHealth`, `flags_extra`, `ScriptName`) VALUES
