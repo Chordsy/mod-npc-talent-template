@@ -1832,6 +1832,7 @@ INSERT INTO `template_npc_talents` (`playerClass`, `playerSpec`, `talentId`) VAL
     ('Shaman', 'Elemental', 60188),
     ('Shaman', 'Elemental', 62101),
     ('Shaman', 'Elemental', 63372),
+    ('Shaman', 'Enhancement', 16108),
     ('Shaman', 'Enhancement', 16164),
 	('Shaman', 'Enhancement', 16161),
     ('Shaman', 'Enhancement', 16268),
