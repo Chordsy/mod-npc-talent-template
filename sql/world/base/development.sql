@@ -1,8 +1,8 @@
 -- DATA
 SET
 @NpcEntry 		:= 55009,
-@NpcName		:= "Willyvodka",
-@NpcSubname		:= "Pick A Spec",
+@NpcName		:= "Pick a spec",
+@NpcSubname		:= "AzerothCore Template",
 @NpcDisplayID		:= 24877;
 
 DELETE FROM `creature_template` WHERE `entry` IN (@NpcEntry);
