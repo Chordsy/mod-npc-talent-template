@@ -2,7 +2,7 @@
 SET
 @NpcEntry 		:= 55009,
 @NpcName		:= "Pick a spec",
-@NpcSubname		:= "ONLY GEAR. STILL PVP TALENTS",
+@NpcSubname		:= "AzerothCore Template",
 @NpcDisplayID		:= 24877;
 
 DELETE FROM `creature_template` WHERE `entry` IN (@NpcEntry);
